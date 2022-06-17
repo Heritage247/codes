@@ -1,0 +1,640 @@
+body{margin: 0;
+     padding:0;
+     box-sizing:border-box;}
+     
+/*--------nav section-------*/
+     .head{
+     	display:flex;
+     	align-items:center;
+     	padding:20px}
+/*-----------nav section--------*/
+     	.head img{width: 250px}
+    nav{
+    	flex:1;
+    	text-align:right;
+    	padding: 10px;
+    	background-color:white;}
+
+  nav ul{display:inline-block;
+  	list-style-type:none;
+  	margin-right:5px;
+  }
+
+  nav ul li{
+  	display:inline;
+  	padding-right:10px;
+  	padding-left:5px;}
+
+nav ul .login{margin-left: 5px;
+margin-right:20px;} 
+
+nav ul li a{
+	text-decoration: none;
+  	color: black;}
+nav .boxed{
+	display:inline-block;
+	background-color:white;
+	border-radius: 10px;
+	padding: 10px;
+	color: green;
+	height: 20px;
+  width:200px;
+	box-shadow:gray 0 0px 20px 0px}
+
+/*--------------advert section--------*/
+
+.container{
+	max-width:100%;
+	margin:auto;
+	align-items:center;
+	padding-right:10px;
+	padding-left: 10px;
+	background:lightgrey}
+
+	.row{
+		display:flex;
+		flex-wrap: wrap;
+    margin-bottom:60px;}
+
+  
+
+   .col1 img{width:80%;
+   	margin-left:40%}
+
+   	.col1 h1{color:navy;
+   	         padding:0%;
+   	         margin-top:150px;
+   	         font-size: 70px}
+
+   .col1 p{color:gray;
+   	       font-size:25px;}
+
+
+   .box{
+   border-radius: 10px;
+	padding:3px;
+	color: green;
+	height:170px;
+	width:120%;
+  margin-left: 20px;
+background-color:lightgrey;
+display:inline-flex;}
+
+.box .boxy{display:inline-block;
+  border:1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  color: green;
+  height: 10px;
+  width:140px;
+  box-shadow:gray 0 0px 20px 0px;}             
+
+.box img{border-radius:20px;
+width: 150px;
+padding:0px;
+margin:2px;
+height: 50px;
+padding-left:100px 
+}
+
+/*-----------about section----------*/
+
+
+
+
+.col2 h2{margin-left:57px;
+  font-size:40px;
+  color: navy;
+  margin-bottom: 0
+}
+
+.col2 .boxorange{background-color: orange;
+width:90px;
+height:35px;
+border-radius: 10px;
+text-align: center;
+position: center;
+padding-top:7px;
+padding-bottom:
+margin-left:155px;
+}
+
+.col2 .line{width:100px;
+margin-left:55px;
+background-color:orange;
+height:5px;
+margin-top:0;
+border-radius:20px}
+
+.col2 h1{color: navy;
+margin-left:50px;}
+
+.col2 p{
+  color: black;
+  margin-left: 150px;
+  margin-top:10px;
+  padding:5px;
+  font-size:20px;
+  margin-bottom: 10px
+}
+.col2 img{
+  margin-top:130px;
+  width:500px;
+  height:150px;
+   margin-left:110px;
+}
+
+  .col2 .pic img{height:220px;
+    width:250px;
+   
+    padding-left: 0px
+
+  }
+
+  .col2 .boxorange{
+    margin-left:50px;
+    width: 150px;
+    font-size: 22px;
+    color: white;
+    border-radius:10px}
+
+
+    /*------------how it works section----------*/
+
+.container1{
+  max-width:100%;
+  margin:auto;
+  align-items:center;
+  padding-right:10px;
+  padding-left: 10px;
+  background:white}
+
+  .row1{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom:60px;}
+
+  
+
+
+.col3 p{
+  font-size:47;
+  margin-top:90px;
+  padding-left:50px
+}
+
+
+.col32 small p{
+  margin-left:480px;
+  font-size:47;
+  margin-bottom:0
+}
+.col32 img{
+  margin-left:300px;
+  width:500px;
+margin-top:70px}
+
+.col32 .line1{width:100px;
+margin-left:630px;
+background-color:orange;
+height:5px;
+margin-top:0;
+border-radius:20px}
+
+.inbox{
+  width:100%;
+  display:flex;
+  align-items:center;
+  padding:10px;
+}
+
+.smallbox{
+  width:180px;
+  height:180px;
+  border-radius:10px;
+  margin:30px 40px;
+  border:2px solid grey;
+}
+.smallbox2{
+  width:180px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 40px;
+  border:2px solid grey;
+}
+.smallbox3{
+  width:180px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 40px;
+  border:2px solid grey;
+}
+.smallbox4{
+  width:180px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 40px;
+  border:2px solid grey;
+}
+
+.smallbox5{
+  width:180px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 40px;
+  text-align: center;
+  border:2px solid grey;
+}
+
+.inbox img{ 
+  border-radius:10px;
+  width:130px;
+  height:150px;
+  margin:0px 20 ;
+  padding-top:0px;
+
+}
+
+.smallbox5 small{
+  color:green;
+ font-size:16;
+ margin-top:0
+}
+
+/*------------Question section-------------*/
+
+
+
+ .container2{max-width:100%;
+  margin:auto;
+  align-items:center;
+  padding-right:10px;
+  padding-left: 10px;
+  background:lightgrey}  
+
+.container2 .row2{
+  background-color:red;
+   display:flex;
+    flex-wrap: wrap;
+    margin-bottom:60px;}
+
+.col4 big{
+  margin-left:40px;
+  font-size:30px;
+  color:white;}
+
+.col4 .line3{width:60px;
+margin-left:40px;
+background-color:orange;
+height:5px;
+margin-top:0;
+border-radius:20px}
+
+
+.col4 p{
+  margin-left:45px;
+  
+  font-size:25px;
+  color:white;
+  font-size:20}
+
+
+.col4 small p{
+  margin-top:60px;
+  color: white;
+  margin-left:360px;
+  justify-content: center; 
+}
+
+ .boxorange3{position: absolute;
+  right: 10%;
+  margin-top: 7.5rem;
+    background-color:orange;
+    width:90px;
+    height:30px;
+    text-align: center;
+    font-size: 22px;
+    font-size:20;
+    padding-top:5px;
+    color: white;
+    border-radius:10px}
+
+    .inbox1{
+  width:100%;
+  display:flex;
+  align-items:center;
+  padding:10px;
+  margin-top:0px
+}
+
+.smallbox6{
+  width:380px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 60px;
+  text-align: center;
+  border:2px solid grey;
+  background-color:white
+}
+
+.smallbox7{
+  width:380px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 60px;
+  text-align: center;
+  border:2px solid grey;
+  background-color:white
+}
+
+.smallbox8{
+  width:380px;
+  height:180px;
+  border-radius:10px;
+  margin:20px 60px;
+  text-align: center;
+  border:2px solid grey;
+  background-color:white
+}
+/*-------------contact section-------------*/
+.container5{max-width:100%;
+  margin:auto;
+  align-items:center;
+  padding-right:10px;
+  padding-left: 10px;
+  background:white}
+
+
+.col5 small{ 
+ font-size:40px;
+  color:navy;
+  margin-left:40px}
+
+.col5 .line4{width:60px;
+margin-left:40px;
+background-color:green;
+height:5px;
+margin-top:0;
+border-radius:20px}
+
+.col5 h3{
+  font-size:45px;
+  color:navy;
+  margin-left:40px
+}
+
+.col5 li{
+  list-style: none;
+  padding:20px;
+}
+
+.col5 p{
+  color: navy;
+  margin-top:240px;
+  margin-left:-90px;
+  font-size:30px;
+  text-align:center;
+}
+
+.col5 .drop{
+  color:green;
+  border:2px solid green;
+  width:250px;
+  height: 30px;
+  text-align:center;
+  padding-top:10px;
+  border-radius:10px;
+  margin-left:-60px
+}
+
+.col5 big p{
+  color:navy;
+  margin-left:-40px;
+  margin-top:20px;
+  font-size:20px;
+  margin-left:-130px
+}
+
+.col5 .line5{
+width:4px;
+margin-left:-150px;
+background-color:green;
+height:50%;
+margin-top:190px;
+border-radius:20px}
+
+
+.col5 img{
+  width:450;
+  margin-left:150px
+}
+.col5 span img{width:20px;
+margin-left:0px;
+padding:10px}
+
+.col5 span img:first-child{
+  background-color:lightblue;
+  border-radius:200px;
+}
+.col5 span img{
+  background-color:skyblue;
+  border-radius:200px;
+}
+.col5 span img:last-child{
+  background-color:red;
+  border-radius:200px;
+}
+
+
+
+/*-----------last section---------*/
+
+
+.container6{
+  max-width:100%;
+  margin:auto;
+  align-items:center;
+  padding-right:10px;
+  padding-left: 10px;
+  background:lightgrey}
+
+.col6 img{
+  width:170px;
+  margin-left:20%
+}
+
+.col6 p{
+  margin-left:20%;
+  width:550px;
+  font-size:17px;
+  line-height:25px;
+  color: gray
+}
+
+.col6 .boxed{
+  display:inline-block;
+  border-radius:10px;
+  padding: 10px;
+  color:red;
+  height: 20px;
+  width:200px;
+  box-shadow:gray 0 0px 20px 0px;
+  border:2px solid red;
+  margin-left:20%;
+  margin-bottom:10px
+}
+
+.col6 span{
+  display:inline;
+}
+
+.col6 span img{
+  width:130px;
+}
+
+.col6 table{margin-top:30px}
+
+.col6 th{
+  color: green;
+ text-align: left;
+}
+
+.col6 td{
+  color:gray;
+  padding:15px;
+  text-align: left
+ }
+
+.col6 h3{color:grey;
+margin-bottom:5px}
+
+.col6 input{
+  width:200px;
+  height: 30px;
+  border-radius:5px;
+  margin-top:0px;
+}
+
+.col6 .sub{
+color:white;
+text-align: center;
+background-color:red;
+margin-top:20px;
+width:130px;
+height:20px;
+padding:5px;
+font-size: 15px;
+border-radius:10px;
+margin-bottom:40px}
+
+.col6 small{
+  color:grey;
+  font-size: 15px;
+  margin-top: 20px}
+
+  /*-----------media query-------------PHONE--------*/
+  @media screen and (max-width: 600px)
+  {
+    nav ul li{display:block;
+    list-style-type:none;
+    margin-right:5px;
+  }
+  .col1 h1,p,img,.box,.boxy{
+    display:block;
+    text-align:center;
+    align-items: center;
+}
+.col1 img{max-width: 50%;}
+.box .boxy{margin-left: -200;}
+.col2>h1{text-align: center;
+  margin-left: 0px;}
+.col2{width: 100%;}
+.col2 .boxorange{margin-left: 140px;}
+.col2 p {
+  color: black;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.col2 img {
+  margin-top: 130px;
+  width: 500px;
+  height: 150px;
+  margin-left: 20px
+}
+
+.col2 .pic img {
+  height: 220px;
+  width: 250px;
+  padding-left: 0px;
+  margin-left: 100px;
+}
+.rol1 .col3 p{text-align: center;}
+.rol1 .col32 .small .p{margin-left: -50px;
+  text-align: center;}
+  .boxorange3{
+    background-color: orange;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-size: 20;
+    padding-top: 5px;
+    color: white;
+    border-radius: 10px;
+}
+  }
+  /*-----------media query---------------------*/
+ @media screen and (max-width: 1494px) and (min-with: 1254px)
+ {.head{
+   height: 150px;
+ }
+ .head .nav ul{margin-left: 2px;}
+
+  
+    nav{display:inline;
+      flex: 1;
+      text-align: right;
+      padding: 10px;
+      background-color: transparent;
+      margin-right: 160px;
+      position: absolute;
+      top: 7%;
+  }
+
+ }
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
